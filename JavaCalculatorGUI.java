@@ -51,7 +51,7 @@ public class JavaCalculatorGUI {
 
             // ASSIGN COLORS BASED ON BUTTON TYPE
             if (text.equals("=")) {
-                button.setBackground(new Color(0, 120, 255)); // blue
+                button.setBackground(new Color(0, 120, 255));
                 button.setForeground(Color.WHITE);
             } else if (text.equals("/") || text.equals("*") || text.equals("-") || text.equals("+")) {
                 button.setBackground(new Color(255, 105, 180));
@@ -99,7 +99,7 @@ public class JavaCalculatorGUI {
                         case '/':
 
                             if (num2 != 0)
-                                result = num1 / num2; // integer division
+                                result = num1 / num2;
                             else {
                                 display.setText("Error");
                                 return;
