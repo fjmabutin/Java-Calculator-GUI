@@ -107,7 +107,7 @@ public class JavaCalculatorGUI {
                             break;
                     }
                     display.setText(String.valueOf(result));
-                } else { // operator buttons
+                } else {
                     operator = cmd.charAt(0);
                     num1 = Integer.parseInt(display.getText());
                     display.setText("0");
